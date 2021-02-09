@@ -17,12 +17,12 @@
     position: relative;
 }
 .header img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     position: absolute;
-    top: 70px;
-    left: 130px;
+    top: 0px;
+    left: 10px;
     box-shadow: 3px 3px 20px rgb(25, 80, 131);
     cursor: pointer;
     transition: .5s;
@@ -225,11 +225,3 @@
     text-align: center;
 }
 
-@media print {
-    body *{
-        visibility: hidden;
-    }
-    print-area *{
-        visibility: visible;
-    }
-}
